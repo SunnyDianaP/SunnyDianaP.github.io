@@ -1,0 +1,123 @@
+
+/*general*/
+
+  body {
+      font:20px Montserrat,
+        line-height: 1.8;}
+  
+  h1 {font-size: 50px;
+     color: #C0C0C0 !important}
+  
+  h2 {font-size: 50px;}
+  
+  h3 {font-size: 30px;}
+  
+  p {font-size: 25px;}
+  
+  h4 {font-size: 50px;
+     color: #000000;}
+
+  .h4 {font-size: 50px;}
+
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+/*nav bar */
+
+ .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+  }
+
+/* Jumbotron */
+
+  .bg-1 {   
+    background-color: #000000; /* black */
+    }
+
+  #jumbotron {
+  margin-bottom: 0px;
+    }
+
+/* Banner Image */
+  .imgbanner {
+    background-color: rgb(210,241,254);
+  }
+
+    .banner-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+
+/* Section One */
+
+  .section-one {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    }
+
+  .bg-2 { 
+      background-color: rgb(248,248,248);
+    }
+  .p2 {font-size: 20px; font-style: italic; color: #808080;}
+  .questions {color:  #808080;}
+  .bottom-padding {margin-bottom: 45px;}
+  .top-padding {margin-top: 45px;}
+  .side-padding: {padding-right: 100px;
+   padding-left: 100px;}
+
+  .img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+
+/* Section Two */
+
+  .bg-3 { 
+      background-color: #000000; /*  */
+      color: #555555;
+    }
+
+  .imgbanner2 {
+    background-color: #000000;
+    }
+
+
+/* Section Three */
+
+  .bg-4 { 
+      background-color: rgb(210,241,254); /* Light Blue */
+  }
+
+.bg-5 {background-color: #D3D3D3}; /* Nav Grey */
+
+
+ .img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+   max-height: ;
+   height: auto;
+  }
+
+
+
+
+  
