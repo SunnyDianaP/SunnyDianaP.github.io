@@ -12,10 +12,12 @@
   
   h3 {font-size: 30px;}
   
-  p {font-size: 25px;}
+  p {font-size: 22px;}
   
   h4 {font-size: 50px;
      color: #000000;}
+
+  h5 {font-size: 40px;}
 
   .h4 {font-size: 50px;}
 
@@ -60,14 +62,31 @@
     width: 65%;
   }
 
-/* Section One */
+/* The Basics */
 
-  .section-one {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+  .padding {
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 60px;
     }
+
+      .padding1 {
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    }
+
+    .padding2 {
+    padding-right: 120px;
+    padding-left: 120px;
+    }
+
+    .padding3 {
+        padding-right: 200px;
+        padding-left: 200px;
+        }
 
   .bg-2 { 
       background-color: rgb(248,248,248);
@@ -87,7 +106,7 @@
   }
 
 
-/* Section Two */
+/* Freemium Options */
 
   .bg-3 { 
       background-color: #000000; /*  */
@@ -118,6 +137,12 @@
   }
 
 
+.text-box {
+    width: 800px;
+    border: 10px solid rgb(210,241,254);
+    padding: 10px;
+    margin: 10px;
+}
 
+.li {font-size: 22px;}
 
-  
