@@ -1,32 +1,91 @@
 
 /*general*/
-
   body {
       font:20px Montserrat,
-        line-height: 1.8;}
+        }
   
-  h1 {font-size: 50px;
+/*TEXT*/
+  h1 {font-size:30px;
      color: #C0C0C0 !important}
+
+      @media only screen and (min-width: 992px) {
+      h1 {font-size: 50px; 
+      }
+        }
+
+      @media only screen and (min-width: 600px) {
+      h1 {font-size: 35px; 
+      }
+        }
+
+  h2 {font-size: 25px;}
+
+      @media only screen and (min-width: 992px) {
+        h2 {font-size: 50px; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        h2 {font-size: 35px; 
+        }
+          }
+
+  h3 {font-size: 20px;}
   
-  h2 {font-size: 50px;}
-  
-  h3 {font-size: 30px;}
-  
-  p {font-size: 22px;}
-  
+      @media only screen and (min-width: 992px) {
+        h3 {font-size: 35px; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        h3 {font-size: 30px; 
+        }
+          }
+
   h4 {font-size: 50px;
      color: #000000;}
 
-  h5 {font-size: 40px;}
+  p {font-size: 14px;}
 
-  .h4 {font-size: 50px;}
+      @media only screen and (min-width: 992px) {
+        p {font-size: 30px; 
+        }
+          }
 
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-    }
+      @media only screen and (min-width: 600px) {
+        p {font-size: 16px; 
+        }
+          }
 
-/*nav bar */
+  .h4 {font-size: 35px;}
+
+      @media only screen and (min-width: 992px) {
+        .h4 {font-size: 50px; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        .h4 {font-size: 45px; 
+        }
+          }
+
+  .p2 {font-size: 12px; font-style: italic; color: #808080;}
+
+      @media only screen and (min-width: 992px) {
+        .p2 {font-size: 20px; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        .p2 {font-size: 20px; 
+        }
+          }
+
+  .questions-color {color:  #808080;}
+
+  .hosting-options {color: #D3D3D3;}
+
+/*NAV BAR*/
 
  .navbar {
       padding-top: 15px;
@@ -35,43 +94,234 @@
       border-radius: 0;
       margin-bottom: 0;
       font-size: 12px;
-      letter-spacing: 5px;
+
   }
+      @media only screen and (min-width: 992px) {
+        .navbar {letter-spacing: 5px;; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        .navbar {letter-spacing: 5px;; 
+        }
+          }
+
+
   .navbar-nav  li a:hover {
   }
 
-/* Jumbotron */
+/* JUMBOTRON */
+    /*overwrite the bootstrap jumbotron default bottom margin of 30px*/
+      #jumbotron {
+      margin-bottom: 0px;
+      color: #C0C0C0;
+      background-color: #181818;
+        }
 
-  .bg-1 {   
-    background-color: #000000; /* black */
-    }
-
-  #jumbotron {
-  margin-bottom: 0px;
-    }
-
-/* Banner Image */
+/* BANNER IMAGE */
   .imgbanner {
     background-color: rgb(210,241,254);
-  }
+    }
 
-    .banner-center {
+  .banner-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-  }
-
-/* The Basics */
-
-  .padding {
-    padding-top: 40px;
-    padding-right: 60px;
-    padding-bottom: 40px;
-    padding-left: 60px;
     }
 
-      .padding1 {
+/* PADDING */
+.padding {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+    }
+
+      @media only screen and (min-width: 600px) {
+        .padding {padding-top: 40px;
+          padding-right: 60px;
+          padding-bottom: 40px;
+          padding-left: 60px; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        .padding {padding-top: 40px;
+          padding-right: 60px;
+          padding-bottom: 40px;
+          padding-left: 60px; 
+        }
+          }
+
+.padding-basics {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+    }
+
+      @media only screen and (min-width: 992px) {
+        .padding-basics {padding-top: 50px;
+          padding-right: 80px;
+          padding-bottom: 50px;
+          padding-left: 80px; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        .padding-basics {padding-top: 20px;
+          padding-right: 30px;
+          padding-bottom: 20px;
+          padding-left: 30px; 
+        }
+          }
+
+.padding-img-basics {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+    }
+
+      @media only screen and (min-width: 992px) {
+        .padding-img-basics {padding-top: 50px;
+          padding-right: 50px;
+          padding-bottom: 50px;
+          padding-left: 50px; 
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        .padding-img-basics {padding-top: 30px;
+          padding-right: 30px;
+          padding-bottom: 30px;
+          padding-left: 30px; 
+        }
+          }
+
+.side-padding {
+    padding-right: 30px;
+    padding-left: 30px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      .side-padding {padding-top: 40px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+        padding-left: 60px; 
+      }
+        }
+
+    @media only screen and (min-width: 600px) {
+      .side-padding {padding-top: 40px;
+        padding-right: 60px;
+        padding-bottom: 40px;
+        padding-left: 60px; 
+      }
+        }
+
+/*hosting images*/
+
+  .img-basic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+      @media only screen and (min-width: 992px) {
+        .img-basic {width: 70%;
+          
+        }
+          }
+
+      @media only screen and (min-width: 600px) {
+        .img-basic {width: 80%;
+          }
+        }
+
+ .img-free {
+   display: block;
+   max-width: 68%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   }
+
+ .img-paid {
+   display: block;
+   max-width: 68%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #181818
+   }
+
+      @media only screen and (min-width: 992px) {
+      .img-paid {max-width: 80%; 
+      }
+        }
+
+      @media only screen and (min-width: 600px) {
+      .img-paid {max-width: 85%; 
+      }
+        }
+
+/*BACKGROUND COLORS*/
+  .bg-1 {   
+      background-color: #181818; /* Almost black */
+      }
+
+  .bg-2 { 
+      background-color: rgb(248,248,248);
+      }
+
+  .bg-3 { 
+      background-color: #181818; /* Almost black */
+      color: #555555;
+      }
+
+  .bg-4 { 
+      background-color: rgb(210,241,254); /* Light Blue */
+      }
+
+  .bg-5 {background-color: #D3D3D3;
+        } /* Dark Grey */
+
+
+/*MISC*/
+  .text-box {
+      width: 800px;
+      border: 10px solid rgb(210,241,254);
+      padding: 10px;
+      margin: 10px;
+      }
+
+.width-constrain { 
+width: 70%; }
+
+/*ADJUST BOOTSTRAP*/
+
+  /*adjust the bootstrap row margin in mobile view*/
+  #row-adjust {margin-right: 0px;
+    margin-left:0px;}
+
+     /* @media only screen and (min-width: 992px) {
+      .row-adjust {max-width: 80%; 
+      }
+        }
+
+      @media only screen and (min-width: 600px) {
+      .img-adjust {max-width: 85%; 
+      }
+        }
+*/
+
+  /*get ride of h2 bootstrap top margin default */
+  .h2 {margin-top:0px;}
+
+/*old padding code*/
+/*      .padding1 {
     padding-top: 40px;
     padding-right: 100px;
     padding-bottom: 40px;
@@ -86,63 +336,9 @@
     .padding3 {
         padding-right: 200px;
         padding-left: 200px;
-        }
-
-  .bg-2 { 
-      background-color: rgb(248,248,248);
-    }
-  .p2 {font-size: 20px; font-style: italic; color: #808080;}
-  .questions {color:  #808080;}
-  .bottom-padding {margin-bottom: 45px;}
+        }*/
+  
+  /*.bottom-padding {margin-bottom: 45px;}
   .top-padding {margin-top: 45px;}
   .side-padding: {padding-right: 100px;
-   padding-left: 100px;}
-
-  .img-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-
-
-/* Freemium Options */
-
-  .bg-3 { 
-      background-color: #000000; /*  */
-      color: #555555;
-    }
-
-  .imgbanner2 {
-    background-color: #000000;
-    }
-
-
-/* Section Three */
-
-  .bg-4 { 
-      background-color: rgb(210,241,254); /* Light Blue */
-  }
-
-.bg-5 {background-color: #D3D3D3}; /* Nav Grey */
-
-
- .img {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 100%;
-   max-height: ;
-   height: auto;
-  }
-
-
-.text-box {
-    width: 800px;
-    border: 10px solid rgb(210,241,254);
-    padding: 10px;
-    margin: 10px;
-}
-
-.li {font-size: 22px;}
-
+   padding-left: 100px;}*/
